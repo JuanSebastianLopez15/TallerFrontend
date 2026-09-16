@@ -14,3 +14,13 @@ const btnEliminar = document.getElementById('btn-eliminar');
 const btnApi = document.getElementById('btn-api');
 const infoWindow = document.getElementById('info-window');
 const resultadoApi = document.getElementById('resultado-api');
+
+let usarHTML = false;
+btnTexto.addEventListener('click', () => {
+    usarHTML = !usarHTML;
+    if (usarHTML) {
+        parrafo.innerHTML = '<strong>Texto cambiado con innerHTML</strong>';
+    } else {
+        parrafo.textContent = 'Texto cambiado con textContent';
+    }
+});
