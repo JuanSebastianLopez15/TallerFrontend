@@ -24,3 +24,9 @@ btnTexto.addEventListener('click', () => {
         parrafo.textContent = 'Texto cambiado con textContent';
     }
 });
+
+btnEstilo.addEventListener('click', () => {
+    parrafo.style.color = 'crimson';
+    // classList.toggle() es mejor práctica: separa diseño (CSS) de lógica (JS)
+    parrafo.classList.toggle('resaltado');
+});
