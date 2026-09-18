@@ -1,1 +1,8 @@
-/* Juanes es gay */
+/* Esta clase la vamos a "activar" y "desactivar" con JavaScript usando classList */
+.destacado {
+    background-color: yellow;   /* color de fondo */
+    color: darkred;              /* color del texto */
+    font-weight: bold;           /* texto en negrita */
+    padding: 8px;                 /* espacio interno, para que no quede pegado al borde */
+    border-radius: 4px;          /* bordes redondeados, detalle visual */
+}

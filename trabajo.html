@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo</title>
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="trabajo.css">
 </head>
 <body>
     <header>
-        <h1>Trabajo</h1>
+        <h1>Restaurante Sabor Casero</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="trabajo.html">Trabajo</a></li>
+                <li><a href="trabajo.html">Menú</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
@@ -19,18 +20,35 @@
 
     <main>
         <section>
-            <h2>Oportunidades Laborales</h2>
+            <h2 id="oportunidades">Nuestro Menú</h2>
             <article>
-                <h3>Oportunidades Laborales buenas</h3>
-                <p>Explora las últimas oportunidades de trabajo en nuestra empresa.</p>
+                <h3 id="oprt-buenas">Especialidades de la Casa</h3>
+                <p>Descubre los platos favoritos de nuestros comensales.</p>
             </article>
 
             <ul>
-                <li><a href="#">Desarrollador Web</a></li>
-                <li><a href="#">Diseñador Gráfico</a></li>
-                <li><a href="#">Especialista en Marketing Digital</a></li>
+                <li><a href="#">Pasta Alfredo</a></li>
+                <li><a href="#">Parrillada Mixta</a></li>
+                <li><a href="#">Ensalada César</a></li>
             </ul>
+            <div id="cont-dinamico">
+
+            </div>
+            <div id="controles">
+                <button id="btn_cambiar">Cambiar Texto</button>
+                <button id="btn_modificar">Modificar Estilos</button>
+                <button id="btn_eliminar">Eliminar Elementos</button>
+                <button id="btn_consumir">Consumir la API</button>
+                <button id="btn_agregar">Agregar Elementos</button>
+            </div>
+            <div id="info-window">
+                <p id="ancho"></p>
+                <p id="scroll"></p>
+                <p id="url"></p>
+            </div>
+            <div id="resultado-api"></div>
         </section>
     </main>
+    <script src="trabajo.js"></script>
 </body>
 </html>
