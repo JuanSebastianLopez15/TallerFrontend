@@ -1,4 +1,3 @@
-/* Esta clase la vamos a "activar" y "desactivar" con JavaScript usando classList */
 .destacado {
     background-color: yellow;   /* color de fondo */
     color: darkred;              /* color del texto */
